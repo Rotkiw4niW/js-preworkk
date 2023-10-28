@@ -4,6 +4,6 @@ function add(a, b){
     return sum
     
 }
-var numerki = add (5,8);
+var numerki = add (5,7);
 
 console.log(numerki);
