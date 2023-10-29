@@ -4,17 +4,23 @@ function add(a, b){
     return sum
     
 }
-var numerki = add (5,7);
+var numerki = add (5,8);
 
 console.log(numerki);
 
-var contents = getElementById("hello");
-var style = contents.style.display;
-console.log(style);
-function hideOrShow(){
-if(contents.style.display =block){
-contents.style.display= none;
-}else{
-contents.style.display= block;
-}
-};
+// próba zmiany wartości display 
+
+// var contents = document.getElementById("hello");
+// var styl = window.getComputedStyle(contents);
+
+// console.log(stylVarible);
+// function hideOrShow(){
+//     var stylVarible = styl.display;
+//     console.log(stylVarible);
+// if(stylVarible == 'block'){
+// contents.style.display = "none";
+// }
+// else{
+// contents.style.display = "block";
+// };
+// };

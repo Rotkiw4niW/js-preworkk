@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-around;
     position: absolute;
+    z-index: 2;
 }
 header{
     z-index: 0;
@@ -26,6 +27,9 @@ header{
 .header-box{
     align-items: center;
     text-align: center;
+}
+#hello{
+    display: block;
 }
 
 //services
