@@ -1,5 +1,6 @@
 $buttons-color:#fda500;
 $icons:#fed50b;
+$portfolio-background:#e4e4e4;
 //nav & header 
 button{
     background-color: $buttons-color;
@@ -16,7 +17,8 @@ header{
     position: relative;
     display: flex;
     width: 100%;
-    height: 500px;
+    padding: 25% 0;
+    height: auto;
    color: aliceblue;
     background: url("/images/1.jpg");
     background-size: cover;
@@ -34,12 +36,46 @@ header{
 
 //services
 i{
+    font-size: 45px;
     color: $icons;
 }
-.services{
+.services {
+    margin: 10% 10%;
     text-align: center;
 }
 .services-boxs{
+margin: 5% 0;
 display: flex;
 justify-content: center;
+}
+
+//portfolio
+.portfolio{
+    padding: 10% 0%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: $portfolio-background;
+}
+.portfolio-boxs{
+    margin: 5%;
+    height: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.portfolio-box{
+    border: solid black 1px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+.portfolio-box>img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
 }
