@@ -1,6 +1,8 @@
 $buttons-color:#fda500;
 $icons:#fed50b;
 $portfolio-background:#e4e4e4;
+$logo: 'Dancing Script', cursive;
+$hello-and-h5-font: 'Old Standard TT', serif;
 
 //h sizes
 h1{
@@ -8,8 +10,19 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
 }
+h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
 
-
+p{
+font-family: $hello-and-h5-font;
+font-size: 15px;
+}
 
 //nav & header 
 button{
@@ -24,7 +37,7 @@ button{
 
 }
 .logo{
-    font-family: 'Dancing Script', cursive;
+    font-family: $logo;
     font-size: 25px;
     color: $buttons-color;
 }
@@ -45,7 +58,7 @@ header{
     position: relative;
     display: flex;
     width: 100%;
-    padding: 25% 0;
+    padding: 20% 0;
     height: auto;
    color: aliceblue;
     background: url("/images/1.jpg");
@@ -60,11 +73,15 @@ header{
 }
 #hello{
     font-size: 55px;
-    font-family: 'Old Standard TT', serif;
+    font-family: $hello-and-h5-font;
 }
 
 //services
 i{
+    border: solid $icons 4px;
+    border-radius: 50%;
+    padding: 5%;
+    margin: 5%;
     font-size: 45px;
     color: $icons;
 }
@@ -90,16 +107,16 @@ justify-content: center;
     margin: 5%;
     height: 100%;
     display: grid;
-    gap: 20px;
     grid-template-columns: auto auto auto;
     align-content: space-evenly;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 25px 25px;
 }
 
 .portfolio-box{
     border: solid black 1px;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     background-color: white;
 }
 
