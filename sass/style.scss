@@ -17,11 +17,13 @@ h2{
 h4{
     font-size: 20px;
     font-weight: bold;
+    margin: 10px;
 }
 
 p{
 font-family: $hello-and-h5-font;
 font-size: 15px;
+color: rgb(171, 171, 171);
 }
 
 //nav & header 
@@ -131,12 +133,20 @@ gap: 10%;
 footer{
     display: flex;
     padding: 2%;
-    justify-content:space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .social-media-icons{
-    width: 50%;
+    width: 43%;
 }
 .social-media-icons > i{
     font-size: 30px;
     margin: 0 3%;
+}
+.company-name{
+    font-family: "Old Standard TT", serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ababab;
+    width: 26%;
 }
